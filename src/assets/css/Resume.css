@@ -1,0 +1,82 @@
+.resume-section {
+    margin-top: 60px;
+    padding: 60px 0;
+    background-color: #fff8ed;
+}
+
+.resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #b8a07e;
+}
+
+.resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #b8a07e;
+    position: relative;
+    
+}
+
+.resume-title {
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    color: #b8a07e;
+    margin-bottom: 30px;
+}
+
+.resume-item h4 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #927d60;
+}
+
+.resume-item h5 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background: #e4edf9;
+    color: #050d18;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.inst {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #999999;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ed-sum {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #050d18;
+    line-height: 32px;
+}
+
+.resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.resume-item li {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #050d18;
+    margin: 10px 0 10px 0;
+    line-height: 30px;
+}
+
+.resume-item a {
+    text-decoration: none;
+    color: #050d18;
+}

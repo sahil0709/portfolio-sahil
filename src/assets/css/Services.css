@@ -1,0 +1,46 @@
+.services-section {
+    padding-top: 60px;
+}
+
+.services-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.col-style {
+    padding: 30px 30px 30px 30px;
+    margin: 40px 0 0 0;
+}
+
+.icon-container img {
+    width: 48px;
+    height: 48px;
+}
+
+.text-container {
+    margin-left: 20px;
+}
+
+.text-container h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #050d18;
+}
+
+.text-container p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #999999;
+    margin-top: 0;
+}
+
+.col-style:hover {
+    h3 {
+        color: #927d60;
+        transition: 0.3s;
+    }
+}
+
+.services-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1);
+}

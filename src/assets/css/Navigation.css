@@ -1,0 +1,17 @@
+.navbarStyle {
+    background-color: white;
+    top: 0;
+    position: sticky;
+    z-index: 999;
+}
+
+.navFont {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #7e7d7d;
+}
+
+.navFont:hover, .dropdown-toggle:hover {
+    color: #b8a07e;
+}

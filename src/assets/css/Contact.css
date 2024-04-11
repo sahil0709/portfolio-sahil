@@ -1,0 +1,69 @@
+.contacts-section {
+    padding-top: 60px;
+}
+
+.contact-left-item {
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-left-item a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.contact-left-item .icon-container i {
+        font-size: 20px;
+        color: #927d60;
+        float: left;
+        width: 44px;
+        height: 44px;
+        background: #ffe4be;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        transition: all 0.3s ease-in-out;
+}
+
+.text-container h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: #050d18;
+}
+
+.text-container p {
+    margin: 0;
+}
+
+.contact-right-item {
+    margin-top: 24px;
+}
+
+.form-submit {
+    background-color: #ffd69e;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 16px 10px 16px;
+    width: 200px;
+    height: auto;
+    margin-top: 40px;
+    text-align: center;
+    color: #050d18;
+}
+
+.submit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    margin-top: 60px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+}

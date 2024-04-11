@@ -1,0 +1,44 @@
+.facts {
+    padding-top: 60px;
+}
+
+.heading {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    text-align: left;
+    color: #b8a07e;
+}
+
+.separator {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    margin-top: 0;
+}
+
+.icon {
+    font-size: 44px;
+    color: #b8a07e;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.count {
+    font-size: 36px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: #b8a07e;
+}
+
+.text {
+    margin-top: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #999999;
+}
+
+.fact-cards {
+    margin-top: 40px;
+}
