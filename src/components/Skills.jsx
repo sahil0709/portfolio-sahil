@@ -20,12 +20,12 @@ const Skills = () => {
 
     const progressBars2 = [
         {
-            skill: "SQL",
+            skill: "NoSQL",
             progress: 60,
         },
         {
             skill: "Figma",
-            progress: 100,
+            progress: 95,
         },
         {
             skill: "Photoshop",

@@ -1,15 +1,15 @@
 import React from 'react'
 import '../assets/css/Projects.css'
 import { Col, Container, Row } from 'react-bootstrap'
-import img1 from '../assets/images/projects/taxi.jpg'
-import img2 from '../assets/images/projects/restaurant.jpg'
-import img3 from '../assets/images/projects/shopping app.jpg'
-import img4 from '../assets/images/projects/money app.jpg'
-import img5 from '../assets/images/projects/landing page.jpg'
-import img6 from '../assets/images/projects/music app.jpg'
-import img7 from '../assets/images/projects/dashboard.jpg'
-import img8 from '../assets/images/projects/portfolio.jpg'
-import img9 from '../assets/images/projects/messaging app.jpg'
+import img1 from '../assets/images/projects/sumago.jpg'
+import img2 from '../assets/images/projects/taxi.jpg'
+import img3 from '../assets/images/projects/music player.jpg'
+import img4 from '../assets/images/projects/restaurant.jpg'
+import img5 from '../assets/images/projects/shopping app.jpg'
+import img6 from '../assets/images/projects/money app.jpg'
+import img7 from '../assets/images/projects/landing page.jpg'
+import img8 from '../assets/images/projects/dashboard.jpg'
+import img9 from '../assets/images/projects/portfolio.jpg'
 
 const Projects = () => {
     return (
@@ -37,17 +37,17 @@ const Projects = () => {
                             <Row>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img1} alt="" />
+                                        <img src={img1} alt="Sumago Infotech Pvt Ltd Main Website" />
                                     </div>
                                 </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img2} alt="" />
+                                        <img src={img2} alt="Demand-Supply Oriented Taxi Recommendation System Android App" />
                                     </div>
                                 </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img3} alt="" />
+                                        <img src={img3} alt="Music Player React App" />
                                     </div>
                                 </Col>
                             </Row>
@@ -90,18 +90,42 @@ const Projects = () => {
                             <Row>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img1} alt="" />
+                                        <img src={img2} alt="" />
                                     </div>
                                 </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img2} alt="" />
+                                        <img src={img4} alt="" />
                                     </div>
                                 </Col>
                             </Row>
                         </div>
                         <div class="tab-pane fade" id="pills-mern" role="tabpanel" aria-labelledby="pills-mern-tab" tabindex="0">
                             <Row>
+                                <Col lg={4} md={4} sm={12}>
+                                    <div className="img-container">
+                                        <img src={img1} alt="" />
+                                    </div>
+                                </Col>
+                                <Col lg={4} md={4} sm={12}>
+                                    <div className="img-container">
+                                        <img src={img3} alt="" />
+                                    </div>
+                                </Col>
+                                <Col lg={4} md={4} sm={12}>
+                                    <div className="img-container">
+                                        <img src={img9} alt="" />
+                                    </div>
+                                </Col>
+                            </Row>
+                        </div>
+                        <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab" tabindex="0">
+                            <Row>
+                                <Col lg={4} md={4} sm={12}>
+                                    <div className="img-container">
+                                        <img src={img5} alt="" />
+                                    </div>
+                                </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
                                         <img src={img6} alt="" />
@@ -115,32 +139,6 @@ const Projects = () => {
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
                                         <img src={img8} alt="" />
-                                    </div>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col lg={4} md={4} sm={12}>
-                                    <div className="img-container">
-                                        <img src={img9} alt="" />
-                                    </div>
-                                </Col>
-                            </Row>
-                        </div>
-                        <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab" tabindex="0">
-                            <Row>
-                                <Col lg={4} md={4} sm={12}>
-                                    <div className="img-container">
-                                        <img src={img3} alt="" />
-                                    </div>
-                                </Col>
-                                <Col lg={4} md={4} sm={12}>
-                                    <div className="img-container">
-                                        <img src={img4} alt="" />
-                                    </div>
-                                </Col>
-                                <Col lg={4} md={4} sm={12}>
-                                    <div className="img-container">
-                                        <img src={img5} alt="" />
                                     </div>
                                 </Col>
                             </Row>

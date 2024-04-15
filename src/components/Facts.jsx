@@ -7,23 +7,23 @@ const Facts = () => {
     const cardData = [
         {
             icon: <i className="bi bi-emoji-smile"></i>,
-            count: 232,
+            count: 4,
             text: `Happy Clients`,
         },
         {
             icon: <i className="bi bi-journal-code"></i>,
-            count: 521,
+            count: 3,
             text: `Projects Delivered`,
         },
         {
             icon: <i className="bi bi-headset"></i>,
-            count: 1453,
+            count: 540,
             text: `Hours Of Support Provided`,
         },
         {
             icon: <i className="bi bi-people"></i>,
-            count: 32,
-            text: `Hard Workers`,
+            count: 7,
+            text: `Cups Of Coffee`,
         },
     ];
 
@@ -40,7 +40,7 @@ const Facts = () => {
                                     <Row>
                                         <Col className='icon'>{a.icon}</Col>
                                         <Col>
-                                            <h1 className='count'><CountUp start={0} end={a.count} duration={1} enableScrollSpy /></h1>
+                                            <h1 className='count'><CountUp start={0} end={a.count} duration={3} /></h1>
                                             <p className='text'>{a.text}</p>
                                         </Col>
                                     </Row>

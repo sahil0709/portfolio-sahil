@@ -25,3 +25,7 @@
 .tab-style:hover {
     color: #927d60;
 }
+
+.nav-link:focus {
+    color: #927d60;;
+}
