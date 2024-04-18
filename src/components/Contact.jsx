@@ -74,7 +74,7 @@ const Contact = () => {
                         </Col>
                     </Row>
                     <div className="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234.367420989251!2d73.82555146301421!3d19.97160137339095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb5bff514c67%3A0x1e92eed79709bf40!2sTalathi%20Karyalay%20upnagar!5e0!3m2!1sen!2sin!4v1708694892165!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234.3672067973011!2d73.82552458592761!3d19.97174546255595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddebfa97d5a397%3A0xce4476ed2aee9add!2sCuemath%20Online%20Tution%20Center!5e0!3m2!1sen!2sin!4v1713459246574!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title='home-location'></iframe>
                     </div>
                 </Container>
             </div >

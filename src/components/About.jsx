@@ -27,16 +27,16 @@ const About = () => {
                                 <Col>
                                     <ul className='list-unstyled'>
                                         <li><span>&#62; Birth Date:</span> 7 September 2000</li>
-                                        <li><span>&#62; Website:</span> www.example.com</li>
+                                        <li><span>&#62; Education:</span> Bachelor of Engineering (IT)</li>
                                         <li><span>&#62; Contact:</span> <a href="tel:+919284160068">+91 9284160068</a></li>
                                         <li><span>&#62; City:</span> Nasik, Maharashtra, India</li>
                                     </ul>
                                 </Col>
                                 <Col>
                                     <ul className='list-unstyled'>
-                                        <li><span>&#62; Education:</span> Bachelor of Engineering (IT)</li>
                                         <li><span>&#62; E-mail:</span> <a href="mailto:a.sahil0709@gmail.com" target='blank'>a.sahil0709@gmail.com</a></li>
                                         <li><span>&#62; LinkedIn:</span> <a href="https://www.linkedin.com/in/asahilatul/" target='blank'>www.linkedin.com/in/asahilatul/</a></li>
+                                        <li><span>&#62; GitHub:</span> <a href="https://github.com/sahil0709" target='blank'> https://github.com/sahil0709</a></li>
                                         <li><span>&#62; Freelance:</span> Available</li>
                                     </ul>
                                 </Col>

@@ -38,50 +38,55 @@ const Projects = () => {
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
                                         <img src={img1} alt="Sumago Infotech Pvt Ltd Main Website" />
+                                        <div className="textbox">Sumago Infotech Pvt Ltd Main Website</div>
                                     </div>
                                 </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
                                         <img src={img2} alt="Demand-Supply Oriented Taxi Recommendation System Android App" />
+                                        <div className="textbox">Demand-Supply Oriented Taxi Recommendation System Android App</div>
                                     </div>
                                 </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img3} alt="Music Player React App" />
-                                    </div>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col lg={4} md={4} sm={12}>
-                                    <div className="img-container">
-                                        <img src={img4} alt="" />
+                                        <img src={img3} alt="Offline Music Player React App" />
+                                        <div className="textbox">Offline Music Player React App</div>
                                     </div>
                                 </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img5} alt="" />
+                                        <img src={img4} alt="RDBMS for Restaurant Management" />
+                                        <div className="textbox">RDBMS for Restaurant Management</div>
                                     </div>
                                 </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img6} alt="" />
-                                    </div>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col lg={4} md={4} sm={12}>
-                                    <div className="img-container">
-                                        <img src={img7} alt="" />
+                                        <img src={img5} alt="UI Design for Mock Shopping App" />
+                                        <div className="textbox">UI Design for Mock Shopping App</div>
                                     </div>
                                 </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img8} alt="" />
+                                        <img src={img6} alt="UI Design for Mock Finance App" />
+                                        <div className="textbox">UI Design for Mock Finance App</div>
                                     </div>
                                 </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img9} alt="" />
+                                        <img src={img7} alt="UI Design for the Landing Page of a Mock Credit Card Company" />
+                                        <div className="textbox">UI Design for the Landing Page of a Mock Credit Card Company</div>
+                                    </div>
+                                </Col>
+                                <Col lg={4} md={4} sm={12}>
+                                    <div className="img-container">
+                                        <img src={img8} alt="Admin Dashboard for Sumago Infotech's Main Website" />
+                                        <div className="textbox">Admin Dashboard for Sumago Infotech's Main Website</div>
+                                    </div>
+                                </Col>
+                                <Col lg={4} md={4} sm={12}>
+                                    <div className="img-container">
+                                        <img src={img9} alt="The Portfolio You're Looking At Right Now" />
+                                        <div className="textbox">The Portfolio You're Looking At Right Now 😉</div>
                                     </div>
                                 </Col>
                             </Row>
@@ -90,12 +95,14 @@ const Projects = () => {
                             <Row>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img2} alt="" />
+                                        <img src={img2} alt="Demand-Supply Oriented Taxi Recommendation System Android App" />
+                                        <div className="textbox">Demand-Supply Oriented Taxi Recommendation System Android App</div>
                                     </div>
                                 </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img4} alt="" />
+                                        <img src={img4} alt="RDBMS for Restaurant Management" />
+                                        <div className="textbox">RDBMS for Restaurant Management</div>
                                     </div>
                                 </Col>
                             </Row>
@@ -104,17 +111,26 @@ const Projects = () => {
                             <Row>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img1} alt="" />
+                                        <img src={img1} alt="Sumago Infotech Pvt Ltd Main Website" />
+                                        <div className="textbox">Sumago Infotech Pvt Ltd Main Website</div>
                                     </div>
                                 </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img3} alt="" />
+                                        <img src={img3} alt="Offline Music Player React App" />
+                                        <div className="textbox">Offline Music Player React App</div>
                                     </div>
                                 </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img9} alt="" />
+                                        <img src={img8} alt="Admin Dashboard for Sumago Infotech's Main Website" />
+                                        <div className="textbox">Admin Dashboard for Sumago Infotech's Main Website</div>
+                                    </div>
+                                </Col>
+                                <Col lg={4} md={4} sm={12}>
+                                    <div className="img-container">
+                                        <img src={img9} alt="The Portfolio You're Looking At Right Now" />
+                                        <div className="textbox">The Portfolio You're Looking At Right Now 😉</div>
                                     </div>
                                 </Col>
                             </Row>
@@ -123,22 +139,20 @@ const Projects = () => {
                             <Row>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img5} alt="" />
+                                        <img src={img5} alt="UI Design for Mock Shopping App" />
+                                        <div className="textbox">UI Design for Mock Shopping App</div>
                                     </div>
                                 </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img6} alt="" />
+                                        <img src={img6} alt="UI Design for Mock Finance App" />
+                                        <div className="textbox">UI Design for Mock Finance App</div>
                                     </div>
                                 </Col>
                                 <Col lg={4} md={4} sm={12}>
                                     <div className="img-container">
-                                        <img src={img7} alt="" />
-                                    </div>
-                                </Col>
-                                <Col lg={4} md={4} sm={12}>
-                                    <div className="img-container">
-                                        <img src={img8} alt="" />
+                                        <img src={img7} alt="UI Design for the Landing Page of a Mock Credit Card Company" />
+                                        <div className="textbox">UI Design for the Landing Page of a Mock Credit Card Company</div>
                                     </div>
                                 </Col>
                             </Row>

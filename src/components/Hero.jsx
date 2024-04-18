@@ -30,10 +30,10 @@ const Hero = () => {
                     </h1>
                     <p>Developer, Designer, Photographer, Freelancer</p>
                     <ul className='list-unstyled list-social d-flex gap-4'>
-                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-                        <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
-                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-                        <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                        <li><a href="https://www.facebook.com/a.sahil.923" target='blank'><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/sa.hilarious_/" target='blank'><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/asahilatul/" target='blank'><i class="bi bi-linkedin"></i></a></li>
+                        <li><a href="https://github.com/sahil0709/" target='blank'><i class="bi bi-github"></i></a></li>
                     </ul>
                 </div>
             </Container>

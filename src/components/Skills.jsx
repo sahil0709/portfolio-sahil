@@ -5,16 +5,16 @@ import { Col, Container, ProgressBar, Row } from 'react-bootstrap'
 const Skills = () => {
     const progressBars1 = [
         {
-            skill: "HTML",
-            progress: 95,
+            skill: "MERN Stack",
+            progress: 80,
         },
         {
-            skill: "CSS",
-            progress: 85,
+            skill: "RESTful APIs",
+            progress: 80,
         },
         {
-            skill: "JavaScript",
-            progress: 50,
+            skill: "Object-Oriented Programming (OOPS)",
+            progress: 70,
         },
     ]
 

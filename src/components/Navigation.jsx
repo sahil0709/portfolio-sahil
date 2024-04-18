@@ -37,6 +37,7 @@ const Navigation = () => {
                         <Nav.Link href="#projects" className='navFont'>Projects</Nav.Link>
                         <Nav.Link href="#services" className='navFont'>Services</Nav.Link>
                         <Nav.Link href="#contact" className='navFont'>Contact</Nav.Link>
+                        <a href='/Sahil (April 2024).pdf' className='download-resume' download>Download Latest Resume</a>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
