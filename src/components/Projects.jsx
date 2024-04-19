@@ -35,55 +35,55 @@ const Projects = () => {
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab" tabindex="0">
                             <Row>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img1} alt="Sumago Infotech Pvt Ltd Main Website" />
                                         <div className="textbox">Sumago Infotech Pvt Ltd Main Website</div>
                                     </div>
                                 </Col>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img2} alt="Demand-Supply Oriented Taxi Recommendation System Android App" />
                                         <div className="textbox">Demand-Supply Oriented Taxi Recommendation System Android App</div>
                                     </div>
                                 </Col>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img3} alt="Offline Music Player React App" />
                                         <div className="textbox">Offline Music Player React App</div>
                                     </div>
                                 </Col>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img4} alt="RDBMS for Restaurant Management" />
                                         <div className="textbox">RDBMS for Restaurant Management</div>
                                     </div>
                                 </Col>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img5} alt="UI Design for Mock Shopping App" />
                                         <div className="textbox">UI Design for Mock Shopping App</div>
                                     </div>
                                 </Col>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img6} alt="UI Design for Mock Finance App" />
                                         <div className="textbox">UI Design for Mock Finance App</div>
                                     </div>
                                 </Col>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img7} alt="UI Design for the Landing Page of a Mock Credit Card Company" />
                                         <div className="textbox">UI Design for the Landing Page of a Mock Credit Card Company</div>
                                     </div>
                                 </Col>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img8} alt="Admin Dashboard for Sumago Infotech's Main Website" />
                                         <div className="textbox">Admin Dashboard for Sumago Infotech's Main Website</div>
                                     </div>
                                 </Col>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img9} alt="The Portfolio You're Looking At Right Now" />
                                         <div className="textbox">The Portfolio You're Looking At Right Now 😉</div>
@@ -93,13 +93,13 @@ const Projects = () => {
                         </div>
                         <div class="tab-pane fade" id="pills-academic" role="tabpanel" aria-labelledby="pills-academic-tab" tabindex="0">
                             <Row>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img2} alt="Demand-Supply Oriented Taxi Recommendation System Android App" />
                                         <div className="textbox">Demand-Supply Oriented Taxi Recommendation System Android App</div>
                                     </div>
                                 </Col>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img4} alt="RDBMS for Restaurant Management" />
                                         <div className="textbox">RDBMS for Restaurant Management</div>
@@ -109,25 +109,25 @@ const Projects = () => {
                         </div>
                         <div class="tab-pane fade" id="pills-mern" role="tabpanel" aria-labelledby="pills-mern-tab" tabindex="0">
                             <Row>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img1} alt="Sumago Infotech Pvt Ltd Main Website" />
                                         <div className="textbox">Sumago Infotech Pvt Ltd Main Website</div>
                                     </div>
                                 </Col>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img3} alt="Offline Music Player React App" />
                                         <div className="textbox">Offline Music Player React App</div>
                                     </div>
                                 </Col>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img8} alt="Admin Dashboard for Sumago Infotech's Main Website" />
                                         <div className="textbox">Admin Dashboard for Sumago Infotech's Main Website</div>
                                     </div>
                                 </Col>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img9} alt="The Portfolio You're Looking At Right Now" />
                                         <div className="textbox">The Portfolio You're Looking At Right Now 😉</div>
@@ -137,19 +137,19 @@ const Projects = () => {
                         </div>
                         <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab" tabindex="0">
                             <Row>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img5} alt="UI Design for Mock Shopping App" />
                                         <div className="textbox">UI Design for Mock Shopping App</div>
                                     </div>
                                 </Col>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img6} alt="UI Design for Mock Finance App" />
                                         <div className="textbox">UI Design for Mock Finance App</div>
                                     </div>
                                 </Col>
-                                <Col lg={4} md={4} sm={12}>
+                                <Col lg={4} md={6} sm={12}>
                                     <div className="img-container">
                                         <img src={img7} alt="UI Design for the Landing Page of a Mock Credit Card Company" />
                                         <div className="textbox">UI Design for the Landing Page of a Mock Credit Card Company</div>

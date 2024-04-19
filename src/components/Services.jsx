@@ -25,9 +25,6 @@ const Services = () => {
             title: "Dashboard Creation",
             content: "Transforming data into insightful visualizations for informed decision-making."
         },
-    ]
-
-    const cardData2 = [
         {
             icon: img4,
             title: "Database Management",
@@ -42,7 +39,7 @@ const Services = () => {
             icon: img6,
             title: "Photography",
             content: "Capturing moments with precision, bringing visuals to life. Elevating your brand through captivating imagery."
-        },
+        }
     ]
 
     return (
@@ -53,23 +50,6 @@ const Services = () => {
                     <p className='separator'>Unlock the gateway to tailored solutions and transformative experiences – my Services are designed to elevate your digital presence and bring your ideas to life. As a developer, designer, and freelancer, I offer a spectrum of services encompassing web development, UI/UX design, photography, and more. Explore the array of services I offer and let's embark on a journey to enhance your digital footprint and make your vision a reality.</p>
                     <Row>
                         {cardData1.map((a) => {
-                            return (
-                                <Col lg={4} md={6} sm={12} className='services-card col-style'>
-                                    <div className='d-flex'>
-                                        <div className="icon-container">
-                                            <img src={a.icon} alt="" />
-                                        </div>
-                                        <div className="text-container">
-                                            <h3>{a.title}</h3>
-                                            <p>{a.content}</p>
-                                        </div>
-                                    </div>
-                                </Col>
-                            )
-                        })}
-                    </Row>
-                    <Row>
-                        {cardData2.map((a) => {
                             return (
                                 <Col lg={4} md={6} sm={12} className='services-card col-style'>
                                     <div className='d-flex'>
