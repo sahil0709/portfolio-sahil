@@ -3,9 +3,9 @@ import { Col, Container, Row, Form } from 'react-bootstrap';
 import '../assets/css/Contact.css';
 
 const Contact = () => {
-    const [rows, setRows] = useState(5); // Default number of rows
-    const [isSubmitting, setIsSubmitting] = useState(false); // State to track form submission status
-    const formRef = useRef(null); // Ref for accessing the form element
+    const [rows, setRows] = useState(5);
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const formRef = useRef(null);
 
     useEffect(() => {
         const adjustRows = () => {
@@ -28,7 +28,7 @@ const Contact = () => {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-        setIsSubmitting(true); // Set submitting state to true
+        setIsSubmitting(true);
         const formData = new FormData(event.target);
         formData.append("access_key", "4bbc7df8-c449-42f7-ad58-90e0aa93462a");
 
@@ -39,15 +39,15 @@ const Contact = () => {
             });
             if (res.ok) {
                 console.log("Form submitted successfully!");
-                window.alert("Your message has been sent!"); // Notify user with an alert
-                formRef.current.reset(); // Reset the form fields
+                window.alert("Your message has been sent!");
+                formRef.current.reset();
             } else {
                 console.error("Form submission failed!");
             }
         } catch (error) {
             console.error("Error submitting form:", error);
         } finally {
-            setIsSubmitting(false); // Reset submitting state
+            setIsSubmitting(false);
         }
     };
 
